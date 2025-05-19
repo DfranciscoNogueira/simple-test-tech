@@ -1,0 +1,23 @@
+PERGUNTA:
+
+    Describe the steps you would take to diagnose and improve the performance of a batch
+    process that interacts with a database and an FTP server. Explain how you would identify
+    bottlenecks, optimize database queries, improve logic execution, and enhance file
+    transfer efficiency. Provide examples of tools or techniques you would use during the
+    analysis.
+
+RESPOSTA:
+
+    Para identificar gargalos e otimizar uma execução para reduzir tempos de processamento eu fatia o seguinte:
+
+    1. Identificação de Gargalos:
+        Primeiramente, analisamos quais etapas do processo são mais lentas e causam impacto no desempenho (poderia usar newRelic ou DataDog).
+
+    2. Monitoramento de Recursos:
+        tambem poderia usar o newRelic ou DataDog
+
+    3. Otimização das Consultas ao Banco de Dados:
+         criando indices, evitando joins e subqueries desnecessários, utilizando cache de dados e processando em lote.
+
+    3. Melhorando a execução da lógica:
+         verificar o algoritmo, evitar computações desnecessárias

@@ -1,0 +1,25 @@
+Caso de Uso / História do Usuário
+
+
+COMO: um usuário do sistema XYZ.
+
+QUERO: cadastrar, atualizar, buscar e excluir veiculos.
+
+PARA QUE: que o sistema possa armazenar e gerenciar esses dados corretamente para futuras fases.
+
+Fluxo Principal
+    - O usuário acessa o sistema e navega até a tela de gerenciamento de veiculos.
+    - O usuário pode:
+        - Criar um novo veiculo informando código (único e numérico) e descrição (opcional).
+        - Buscar veiculos cadastrados pelo código ou descrição.
+        - Atualizar um veiculo existente.
+        - Excluir um veiculo
+        - O sistema valida as regras e persiste os dados no banco.
+
+Fluxo Alternativo
+    - Se o código do veiculo já existe, o sistema impede a duplicação e exibe uma mensagem de erro.
+
+Regras de Negócio
+    - O código do veiculo deve ser único e numérico.
+    - A descrição pode ter até 10 caracteres e é opcional.
+    - O sistema deve impedir códigos duplicados.

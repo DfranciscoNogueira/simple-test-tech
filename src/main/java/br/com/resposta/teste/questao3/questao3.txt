@@ -1,0 +1,9 @@
+Trabalho com o Angular desde a versão 1.6 e o ultimo projeto que trabalhei foi com a versão 14.
+
+Tenho experiencia com AngularJS, Angular 2+ e Ionic, utilizando:
+
+- Componentes: Trechos de codigos reutilizáveis para a pagina.
+- Directives (Diretivas): Permitem manipular elementos do DOM.
+- Data Binding: Sincroniza dados entre a pagina e backend.
+- Dependency Injection: Para utilizar services.
+
